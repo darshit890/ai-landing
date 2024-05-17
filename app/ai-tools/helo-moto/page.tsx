@@ -110,7 +110,7 @@ const AiToolsPage = ({ params }: any) => {
               </p>
             </div>
             <Image
-              src={"/nightfury_3_1024x.webp"}
+              src={"/try.webp"}
               alt=""
               width={500}
               height={500}
@@ -133,7 +133,7 @@ const AiToolsPage = ({ params }: any) => {
               </p>
             </div>
             <Image
-              src={"/nightfury_3_1024x.webp"}
+              src={"/thundercontent.webp"}
               alt=""
               width={500}
               height={500}

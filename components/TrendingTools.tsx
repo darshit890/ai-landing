@@ -104,7 +104,7 @@ const NewTools = () => {
             ))}
             </div>
             <Link href={`/ai-categories`} className='flex justify-center' >
-              <Button variant='link' className='mt-5 '>
+              <Button variant='default' className='mt-5 '>
                   Browse All new tools
               </Button>
             </Link>
