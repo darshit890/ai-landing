@@ -11,7 +11,7 @@ const ToolCard = ({ cards }: any) => {
       {cards.map((card: any, index: number) => {
         console.log("bcs", card);
         return (
-          <Link key={index} href={`/ai-tools/${card?.attributes?.slug}`}>
+          <Link key={index} href={`/ai-tools/helo-moto`}>
                 <Card className="w-[277x] h-[425x] ">
                   <CardHeader className="p-3">
                     <Image

@@ -52,7 +52,7 @@ const BestTools = () => {
                 key={index}
                 className="pl-1 md:basis-1/2 lg:basis-1/4"
               >
-                <Link href={`/ai-tools/${item?.attributes?.slug}`}>
+                <Link href={`/ai-tools/helo-moto`}>
                 <Card className="w-[277x] h-[425x] ">
                   <CardHeader className="p-3">
                     <Image

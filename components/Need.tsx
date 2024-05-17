@@ -26,7 +26,7 @@ const Need = () => {
             with ease and efficiency
           </p>
           <div className="flex flex-row my-5 px-10 gap-x-16">
-            <Link href={`/blog`}>
+            <Link href={`/blogs`}>
               <Button className="px-20">Blog</Button>
             </Link>
             <Link href={`/`}>

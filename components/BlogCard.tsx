@@ -8,7 +8,7 @@ const BlogCard = ({ blog }: any) => {
     console.log("duck",blog)
     console.log("first", blog[0])
   return (
-    <Link href={`/blogs/${blog[0]?.attributes?.slug}`}>
+    <Link href={`/blogs/helo-moto`}>
                 
               <Card className="w-[277x] h-[425x] ">
                 <CardHeader className="p-3">

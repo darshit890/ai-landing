@@ -22,7 +22,7 @@ const Page = () => {
         <h1 className='from-[#FF1CF7] to-[#b249f8] bg-clip-text text-transparent bg-gradient-to-b text-center mt-10 text-5xl font-semibold tracking-tight'>Blogs</h1>
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 md:grid-cols-4 lg:gap-x-8 my-20">
             {aiToolsList.map((blog: any, index) => {
-                return <Link key={index} href={`/blogs/${blog?.attributes?.slug}`}>
+                return <Link key={index} href={`/blogs/helo-moto`}>
                 
                 <Card className="w-[277x] h-[425x] ">
                   <CardHeader className="p-3">

@@ -35,7 +35,7 @@ const NewTools = () => {
             </h1>
             <div className='grid grid-cols-4 gap-x-4 mt-20 gap-y-10'>
             {aiToolsList.map((item: any, index) => (
-              <Link key={index}  href={`/ai-tools/${item?.attributes?.slug}`}>
+              <Link key={index}  href={`/ai-tools/helo-moto`}>
               <Card className="w-[277x] h-[425x] ">
                 <CardHeader className="p-3">
                   <Image
